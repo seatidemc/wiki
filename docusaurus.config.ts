@@ -24,6 +24,7 @@ const config: Config = {
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: 'seatidemc', // Usually your GitHub org/user name.
 	projectName: 'wiki', // Usually your repo name.
+	trailingSlash: false,
 
 	onBrokenLinks: 'throw',
 
