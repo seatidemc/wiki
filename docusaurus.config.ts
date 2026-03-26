@@ -18,7 +18,7 @@ const config: Config = {
 	url: 'https://seatidemc.github.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: '/wiki/',
+	baseUrl: '/',
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
@@ -77,7 +77,7 @@ const config: Config = {
 
 	themeConfig: {
 		mermaid: {
-			theme: { light: 'neutral', dark: 'neutral' }
+			theme: { light: 'neutral', dark: 'dark' }
 		},
 		imageZoom: {
 			// CSS selector to apply the plugin to, defaults to '.markdown img'
@@ -102,6 +102,7 @@ const config: Config = {
 					label: 'Wiki'
 				},
 				{ href: 'https://seatidemc.github.io', label: '官网', position: 'left' },
+				{ href: 'https://st.subilan.win', label: '控制台', position: 'left'},
 				{
 					href: 'https://github.com/seatidemc/wiki',
 					label: 'GitHub',
