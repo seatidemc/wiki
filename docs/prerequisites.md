@@ -2,23 +2,19 @@
 sidebar_position: 2
 ---
 
-# 准备事宜
+# 进入服务器前的准备事宜
 
-在阅读服务器相关信息后，如果你有意愿加入 Seatide 服务器，此页面将帮助你完成一些必要的准备工作。
-
-在进行以下操作之前，请先确保你有一个属于自己的正版 Minecraft Java Edition 账号。
+此页面将帮助你完成一些必要的准备工作。在进行以下操作之前，请先确保你有一个属于自己的**正版 Minecraft Java Edition** 账号。
 
 ## 1. 申请白名单
 
 到网页 https://v.wjx.cn/vm/m93QvcR.aspx （由问卷星提供）花五分钟填写白名单问卷。
 
-## 2. 等待获取白名单
-
 白名单审核一般在 24 小时以内完成。你可以通过以下两种方式获知是否拥有白名单：
 - 加入 QQ 讨论群（推荐）：可[加入我们的 QQ 讨论群](https://qm.qq.com/q/XijStp4T6u)，届时会直接在群内通知你。
 - 如果你在填写问卷时包含了邮箱地址，会通过发邮件的形式通知你。
 
-## 3. 准备客户端
+## 2. 准备客户端
 
 获得白名单之后就可以准备客户端以进入服务器了。
 
@@ -27,7 +23,7 @@ sidebar_position: 2
 为了确保获得最佳的游戏体验，你可以使用一些轻量化的整合包进入游戏，如 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized)
 或 [Simply Optimized](https://modrinth.com/modpack/sop) 等。这些整合包针对原版游戏进行了优化，能在一定程度上提高你在服务器中的游戏体验。
 
-## 4. 获取服务器地址
+## 3. 获取服务器地址
 
 我们提供两种服务器地址：
 - IP 地址（稳定）：你可以在[服务器状态页面](https://st.subilan.win/#/status)查看最新的 IP 地址，并使用游戏内「直接连接」选项进入服务器
