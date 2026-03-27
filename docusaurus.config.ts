@@ -52,7 +52,7 @@ const config: Config = {
 					sidebarPath: './sidebars.ts',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/seatidemc/wiki/tree/main',
+					editUrl: 'https://github.com/seatidemc/wiki/tree/main'
 				},
 				blog: {
 					showReadingTime: true,
@@ -81,7 +81,7 @@ const config: Config = {
 		},
 		imageZoom: {
 			// CSS selector to apply the plugin to, defaults to '.markdown img'
-			selector: '.markdown img',
+			selector: '.markdown img'
 		},
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',
@@ -102,7 +102,8 @@ const config: Config = {
 					label: 'Wiki'
 				},
 				{ href: 'https://seatidemc.github.io', label: '官网', position: 'left' },
-				{ href: 'https://st.subilan.win', label: '控制台', position: 'left'},
+				{ href: 'https://st.subilan.win', label: '控制台', position: 'left' },
+				{ href: 'https://v.wjx.cn/vm/wQ1gSJg.aspx ', label: '问题反馈', position: 'left' },
 				{
 					href: 'https://github.com/seatidemc/wiki',
 					label: 'GitHub',
@@ -140,7 +141,7 @@ const config: Config = {
 				//   ],
 				// },
 				{
-					title: '相关链接',
+					title: '链接',
 					items: [
 						{
 							label: '官网',
@@ -166,7 +167,7 @@ const config: Config = {
 					]
 				},
 				{
-					title: '加入Seatide',
+					title: '社群',
 					items: [
 						{
 							label: 'QQ 讨论群',
@@ -175,6 +176,10 @@ const config: Config = {
 						{
 							label: '白名单问卷（wjx）',
 							href: 'https://v.wjx.cn/vm/m93QvcR.aspx'
+						},
+						{
+							label: '问题反馈（wjx）',
+							href: 'https://v.wjx.cn/vm/wQ1gSJg.aspx'
 						}
 					]
 				}
