@@ -32,7 +32,7 @@ Seatide 服务器依附于一个自主编写的平台 [go-aliyunmc](https://gith
 
 为了方便称呼，我们将该平台的网页端称为「控制台」，它扮演着 Seatide 服务器控制中心的作用，所有玩家均可使用和操作。
 
-控制台的网页地址是 https://st.subilan.win
+控制台的网页地址是 https://lab.seatide.net
 
 ## 服务器游玩过程中突然关闭了怎么办？
 
