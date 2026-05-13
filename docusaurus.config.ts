@@ -102,7 +102,7 @@ const config: Config = {
 					label: 'Wiki'
 				},
 				{ href: 'https://seatidemc.github.io', label: '官网', position: 'left' },
-				{ href: 'https://st.subilan.win', label: '控制台', position: 'left' },
+				{ href: 'https://lab.seatide.net', label: '控制台', position: 'left' },
 				{ href: 'https://v.wjx.cn/vm/wQ1gSJg.aspx ', label: '问题反馈', position: 'left' },
 				{
 					href: 'https://github.com/seatidemc/wiki',
@@ -158,11 +158,7 @@ const config: Config = {
 					items: [
 						{
 							label: '控制台',
-							href: 'https://st.subilan.win'
-						},
-						{
-							label: '服务器状态',
-							href: 'https://st.subilan.win/#/status'
+							href: 'https://lab.seatide.net'
 						}
 					]
 				},
