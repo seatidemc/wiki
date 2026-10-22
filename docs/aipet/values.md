@@ -49,12 +49,10 @@ HV (Hunger Value) ranges from 0 to 121, with a death threshold at both ends. Abo
 | Guarded | Won't help with most of the things within ability.<br/>Can't talk much, no thought shared.<br/>Limited memory space. |
 | Badblood | Won't help<br/>Won't talk<br/>No memory, but the old memory is kept<br/>Keeps you at a distance of no less than 50 blocks |
 
+The badblood pet is unapproachable to its owner, but its hunger value remains ticking. So badblood pets would die alone if no one, other than their owners, give them food.
 
-
-The badblood pet is unapproachable to its owner, but its hunger value remains ticking. So badblood pets would die lonely if no one, other than their owners, give them food.
-
-There's no "unbound" cause the soul giving is irreversible. It's like "giving birth". You can hate and abuse the baby but the baby is still your child.
+There's no "unbound" cause the soul-giving is irreversible. It's like "giving birth". You can hate and abuse the baby but the baby is still your child.
 
 :::tip[Future Feature: Gossip Animals]
-Non-owners can talk with badblood pets freely because they are no threat to them, and the pets would "share" the "wonderful" experiences and conversations they had with you to them. The owner can't hurt the badblood pets or let them stop because they are unapproachable and the non-owners can keep the badblood pets alive with sufficient food supply. Possibly the ownership can be transferred in this scenario but let's save it for another day.
+Non-owners can talk with badblood pets freely because they are no threat to them, and the pets would "share" the "wonderful" experiences and conversations they had with the former owner to them. The owner can't hurt the badblood pets or let them stop because they can't get near to the pet, and the non-owners can keep the badblood pets alive with food. Possibly the ownership can be transferred in this scenario but let's save it for another day.
 :::
