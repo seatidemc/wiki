@@ -15,7 +15,7 @@ const config: Config = {
 	},
 
 	// Set the production url of your site here
-	url: 'https://seatidemc.github.io',
+	url: 'https://seatide.net',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: '/wiki/',
