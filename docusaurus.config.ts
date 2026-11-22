@@ -38,7 +38,7 @@ const config: Config = {
 
 	themes: ['@docusaurus/theme-mermaid'],
 
-	plugins: ['plugin-image-zoom'],
+	plugins: ['plugin-image-zoom', 'docusaurus-plugin-llms'],
 
 	markdown: {
 		mermaid: true
