@@ -50,7 +50,8 @@ const config: Config = {
 		[
 			'docusaurus-plugin-llms',
 			{
-				generateMarkdownFiles: true
+				generateMarkdownFiles: true,
+				ignoreFiles: ['dev/**']
 			}
 		]
 	],
@@ -190,11 +191,11 @@ const config: Config = {
 							href: 'https://qm.qq.com/q/XijStp4T6u'
 						},
 						{
-							label: '白名单问卷（wjx）',
+							label: '白名单问卷（问卷星）',
 							href: 'https://v.wjx.cn/vm/m93QvcR.aspx'
 						},
 						{
-							label: '问题反馈（wjx）',
+							label: '问题反馈（问卷星）',
 							href: 'https://v.wjx.cn/vm/wQ1gSJg.aspx'
 						}
 					]
