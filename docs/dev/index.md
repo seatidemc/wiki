@@ -24,3 +24,13 @@ Seatide服务器基于阿里云ECS抢占式实例，遵从一种弹性、按需�
 |游戏|Eco/经济|从零设计的游戏经济插件|否||Active|
 |游戏|AIPet|基于LLM的游戏内宠物|否||Hold|
 |游戏|Chemistry|连续自然元素组合的探索向玩法|否||Draft|
+
+## 参与开发
+
+我们主要使用Coding Agent进行开发，不需要手写代码。但要参与开发，最好满足下列条件：
+- 了解GitHub和Git的使用方法，尤其是Git中分支、Merge/Rebase概念
+- 了解任意一种代码生成Harness的使用方法，Harness、Model的区别
+- 了解判定一个需求的可行性的基本方法，避免“抽卡”、“许愿式编程”
+- 了解Minecraft插件与模组的区别（仅游戏插件开发）
+
+我们的仓库主要放在seatidemc组织下面：https://github.com/seatidemc，部分仓库是私有的。 

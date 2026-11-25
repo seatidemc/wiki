@@ -1,6 +1,13 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkCjkFriendly from 'remark-cjk-friendly';
+import remarkCjkFriendlyAutolink from './src/remark/cjk-friendly-autolink';
+
+// CJK-friendly Markdown parsing for Chinese prose:
+// - `remarkCjkFriendly` fixes `**强调**` adjacent to CJK punctuation
+// - `remarkCjkFriendlyAutolink` stops bare URLs at the first CJK character
+const remarkPlugins = [remarkCjkFriendly, remarkCjkFriendlyAutolink];
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -38,12 +45,18 @@ const config: Config = {
 
 	themes: ['@docusaurus/theme-mermaid'],
 
-	plugins: ['plugin-image-zoom', ['docusaurus-plugin-llms', {
-		'generateMarkdownFiles': true
-	}]],
+	plugins: [
+		'plugin-image-zoom',
+		[
+			'docusaurus-plugin-llms',
+			{
+				generateMarkdownFiles: true
+			}
+		]
+	],
 
 	markdown: {
-		mermaid: true
+		mermaid: true,
 	},
 
 	presets: [
@@ -54,7 +67,8 @@ const config: Config = {
 					sidebarPath: './sidebars.ts',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/seatidemc/wiki/tree/main'
+					editUrl: 'https://github.com/seatidemc/wiki/tree/main',
+					remarkPlugins
 				},
 				blog: {
 					showReadingTime: true,
@@ -68,7 +82,11 @@ const config: Config = {
 					// Useful options to enforce blogging best practices
 					onInlineTags: 'warn',
 					onInlineAuthors: 'warn',
-					onUntruncatedBlogPosts: 'warn'
+					onUntruncatedBlogPosts: 'warn',
+					remarkPlugins
+				},
+				pages: {
+					remarkPlugins
 				},
 				theme: {
 					customCss: './src/css/custom.css'

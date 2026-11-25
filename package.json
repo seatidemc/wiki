@@ -24,7 +24,8 @@
     "plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "remark-cjk-friendly": "^2.3.4"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.10.2",
