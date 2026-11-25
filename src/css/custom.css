@@ -35,3 +35,71 @@ img {
   max-width: 500px;
   object-fit: contain;
 }
+
+/*
+ * Long-form / literary pages can opt into serif typography per document with
+ * the `serif` front matter key:
+ *
+ *   ---
+ *   serif: true
+ *   ---
+ *
+ * The class is applied to the article wrapper by
+ * `src/theme/DocItem/Content/index.tsx`.
+ */
+:root {
+  --doc-serif-font-family: 'Times New Roman', 'Songti SC', STSong, 'Noto Serif CJK SC',
+    'Source Han Serif SC', SimSun, serif;
+  --doc-kaiti-font-family: 'Times New Roman', 'Kaiti SC', STKaiti, KaiTi, 楷体, 'AR PL UKai CN',
+    'Noto Serif CJK SC', serif;
+  --doc-heiti-font-family: 'Times New Roman', 'Heiti SC', STHeiti, '黑体-简', 黑体, 'Noto Sans CJK SC', sans-serif;
+}
+
+.markdown-serif {
+  --ifm-font-family-base: var(--doc-serif-font-family);
+  --ifm-heading-font-family: var(--doc-heiti-font-family);
+  --ifm-heading-font-weight: normal;
+  font-family: var(--ifm-font-family-base);
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+}
+
+.markdown-serif strong {
+  font-family: var(--doc-heiti-font-family);
+}
+
+/*
+ * Centred verse block in KaiTi:
+ *
+ *   <div className="poem">
+ *     <p className="poem-title">无题</p>
+ *     <div className="poem-stanza">
+ *       <p>……</p>
+ *     </div>
+ *   </div>
+ */
+.poem {
+  max-width: 34rem;
+  margin: 2.5rem auto;
+  font-family: var(--doc-kaiti-font-family);
+  font-size: 1.0625rem;
+  line-height: 2;
+  text-align: center;
+}
+
+.poem p {
+  margin: 0;
+}
+
+.poem-title {
+  margin-bottom: 1.25rem !important;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  /* Compensate for the trailing letter-space so the title stays optically centred. */
+  text-indent: 0.35em;
+}
+
+.poem-stanza+.poem-stanza {
+  margin-top: 1.5rem;
+}
