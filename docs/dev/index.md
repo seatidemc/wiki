@@ -35,4 +35,4 @@ Seatide服务器基于阿里云ECS抢占式实例，遵从一种弹性、按需�
 
 除了与代码相关的开发，我们还会进行世界观的开发。世界观的开发主要是借助AI或个人创意，通过与人或AI讨论的形式，不断完善Seatide的世界观，并将其与实际游戏体验相融合的工作。
 
-我们的仓库主要放在seatidemc组织下面：https://github.com/seatidemc，部分仓库是私有的。 
+我们的仓库主要放在seatidemc组织下面：https://github.com/seatidemc。
