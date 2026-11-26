@@ -2,6 +2,7 @@
 
 - 仓库地址：https://github.com/Subilan/go-aliyunmc
 - 编程语言：Golang
+- 推荐使用Harness：Claude Code, Codex, Pi
 
 ## 新功能开发流程
 
