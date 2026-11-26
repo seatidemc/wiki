@@ -1,4 +1,4 @@
-# 控制台后端
+# 控制台/论坛后端
 
 - 仓库地址：https://github.com/Subilan/go-aliyunmc
 - 编程语言：Golang
